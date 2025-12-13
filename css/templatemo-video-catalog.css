@@ -456,7 +456,14 @@ a:hover {
 .tm-fixed-header-3 { 
     background-image: url(../img/contact-1.jpg);
     background-position: left 0px ;
+    background-size: cover;
 }
+
+@media (max-width: 768px) {
+    .tm-fixed-header-3 {
+        background-size: 400%; 
+        background-position: center; 
+    }
 
 
 video {
