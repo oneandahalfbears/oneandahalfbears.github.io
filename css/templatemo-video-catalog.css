@@ -321,7 +321,7 @@ a:hover {
  
 /*force align*/
 .tm-content-container { padding-left:0; padding-right:0; }
-
+.tm-catalog-item-list { margin-left:0; margin-right:0; }
 
 .tm-catalog-item{
     flex-direction: column;
