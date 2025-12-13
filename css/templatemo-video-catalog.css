@@ -448,7 +448,7 @@ a:hover {
     background-image: url(../img/video-detail-1.jpg); }
 
 .tm-fixed-header-2 { 
-    background-image: url(../img/julius.jpg);
+    background-image: url(../img/Julius.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -458,13 +458,6 @@ a:hover {
     background-position: left 0px ;
 }
 
-.tm-fixed-header-2 {
-    background-image: url(../img/julius.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #000000;
-}
-
 
 video {
   width: 100%;
@@ -472,7 +465,7 @@ video {
 }
 
 
-/*Abou t*/
+/*About*/
 .tm-about-text-container { max-width: 920px; }
 
 .parallax-window {
