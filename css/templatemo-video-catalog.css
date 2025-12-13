@@ -489,9 +489,7 @@ video {
     .navbar-expand-lg .navbar-collapse { justify-content: flex-end; }
 }
 
-@media (max-width: 1419px) {
-    .tm-catalog-item{ margin-bottom: 30px; }
-}
+
 
 @media (max-width: 991px) {
     .navbar {
