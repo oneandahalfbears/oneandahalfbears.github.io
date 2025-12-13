@@ -1,3 +1,0 @@
-video/Little[[:space:]]Memorial.mp4 filter=lfs diff=lfs merge=lfs -text
-video/Mom's[[:space:]]Song.mp4 filter=lfs diff=lfs merge=lfs -text
-video/Playback.mp4 filter=lfs diff=lfs merge=lfs -text
