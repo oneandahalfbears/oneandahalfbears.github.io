@@ -321,7 +321,7 @@ a:hover {
  
 /*force align*/
 .tm-content-container { padding-left:0; padding-right:0; }
-.tm-catalog-item-list { margin-left:0; margin-right:0; }
+
 
 .tm-catalog-item{
     flex-direction: column;
@@ -489,7 +489,9 @@ video {
     .navbar-expand-lg .navbar-collapse { justify-content: flex-end; }
 }
 
-
+@media (max-width: 1419px) {
+    .tm-catalog-item{ margin-bottom: 30px; }
+}
 
 @media (max-width: 991px) {
     .navbar {
