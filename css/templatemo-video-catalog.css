@@ -459,12 +459,6 @@ a:hover {
     background-size: cover;
 }
 
-@media (max-width: 768px) {
-    .tm-fixed-header-3 {
-        background-size: 400%; 
-        background-position: center; 
-    }
-
 
 video {
   width: 100%;
