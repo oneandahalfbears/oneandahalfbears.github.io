@@ -453,11 +453,12 @@ a:hover {
 
 @media (max-width: 991px) {
     #tm-fixed-header-bg {
-        height: 400px; /* Adjust height for smaller screens penis*/ 
+        height: 530px; 
     }
     
     .tm-fixed-header-1 {
-        background-image: url(../img/video-detail-1-small.jpg); /* Use a different image for smaller screens if needed */
+        background-image: url(../img/video-detail-1-small.jpg); 
+            width: 300px;
         background-size: cover;
     }
 }
@@ -466,6 +467,7 @@ a:hover {
     background-image: url(../img/Julius.jpg);
     background-size: cover;
     background-position: center;
+
 }
 
 .tm-fixed-header-3 { 
