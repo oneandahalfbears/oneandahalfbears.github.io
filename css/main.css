@@ -472,12 +472,23 @@ video {
   height: auto;
 }
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
 video::-webkit-media-controls-play-button {
-  display: none;
+  display: none !important;
 }
 
 video::-moz-media-controls-play-button {
-  display: none;
+  display: none !important;
+}
+
+@media (max-width: 991px) {
+  #tm-video-container video {
+    pointer-events: none;
+  }
+}
 }
 
 
@@ -578,8 +589,7 @@ video::-moz-media-controls-play-button {
    
   }
   .tm-fixed-header-3 {
-    background-attachment: scroll;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
