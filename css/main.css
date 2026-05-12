@@ -148,7 +148,6 @@ a:hover {
     height: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     z-index: 999;
 }
 
@@ -453,17 +452,17 @@ a:hover {
 
 
 .tm-fixed-header-2 { 
-    background-image: url(../img/Julius-2.jpg);
+    background-image: url(../img/Julius.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .tm-fixed-header-3 { 
-    background-image: url(../img/contact-2.jpg);
+    background-image: url(../img/contact-1.jpg);
         background-size: cover;
         background-position: center;
-
 }
+
 
 
 
@@ -570,16 +569,14 @@ video {
     background-position: top;
    
   }
-}
-
-@media (max-width: 991px) {
   .tm-fixed-header-3 {
-    background-size: 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
-   
+    background-position: center;
   }
 }
+
+
 
 
 
