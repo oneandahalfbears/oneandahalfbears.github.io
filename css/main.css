@@ -472,6 +472,14 @@ video {
   height: auto;
 }
 
+video::-webkit-media-controls-play-button {
+  display: none;
+}
+
+video::-moz-media-controls-play-button {
+  display: none;
+}
+
 
 /*About*/
 .tm-about-text-container { max-width: 920px; }
