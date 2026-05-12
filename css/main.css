@@ -453,7 +453,7 @@ a:hover {
 
 @media (max-width: 991px) {
     #tm-fixed-header-bg {
-        height: 530px; 
+        height: 400px; 
     }
     
     .tm-fixed-header-1 {
@@ -472,8 +472,8 @@ a:hover {
 
 .tm-fixed-header-3 { 
     background-image: url(../img/contact-1.jpg);
-    background-position: left 0px ;
     background-size: cover;
+    background-position: center;
 }
 
 
