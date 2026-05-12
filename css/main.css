@@ -173,8 +173,8 @@ a:hover {
     cursor: pointer;
 }
 
-.btn-primary { background-color: #3399CC; }
-.btn-primary:hover { background-color: #1674a0; }
+.btn-primary { background-color: #000203; }
+.btn-primary:hover { background-color: #ff0000; }
 
 
 .tm-btn-animate {
@@ -242,6 +242,7 @@ a:hover {
 .tm-btn-download:before { font-size: 120%; }
 .tm-btn-submit:before { font-size: 120%; }
 .tm-icon-down:before { content: '\f078'; }
+.tm-angles-up:before { content: '\f078'; }
 .tm-icon-download:before { content: '\f019'; }
 .tm-icon-submit:before { content: '\f1d8'; }
 .tm-icon-submit:hover:before { top: 18px; }
@@ -319,7 +320,7 @@ a:hover {
     margin-left: 300px; 
  }
  
-/*force align*/
+
 .tm-content-container { padding-left:0; padding-right:0; }
 .tm-catalog-item-list { margin-left:0; margin-right:0; }
 
@@ -414,7 +415,7 @@ a:hover {
     color: #666666;
 }
 
-/*Video detail page*/
+
 
 .tm-video-title { 
     font-size: 2.5rem;
@@ -442,10 +443,24 @@ a:hover {
     background-attachment: fixed;
     background-size: cover;    
 }
+#tm-fixed-header-bg { 
+    height: 550px; 
+}
 
-#tm-fixed-header-bg { height: 550px; }
 .tm-fixed-header-1 { 
-    background-image: url(../img/video-detail-1.jpg); }
+    background-image: url(../img/video-detail-1.jpg); 
+}
+
+@media (max-width: 991px) {
+    #tm-fixed-header-bg {
+        height: 400px; /* Adjust height for smaller screens penis*/ 
+    }
+    
+    .tm-fixed-header-1 {
+        background-image: url(../img/video-detail-1-small.jpg); /* Use a different image for smaller screens if needed */
+        background-size: cover;
+    }
+}
 
 .tm-fixed-header-2 { 
     background-image: url(../img/Julius.jpg);
@@ -667,6 +682,33 @@ video {
     color: #73787a;
     font-size: 1.1rem;
 }
+/* back to top */
+
+.footer {
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    
+
+
+}
+
+.btt{
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fa-angele-up {
+  font-size: 2.8rem;
+
+}
+
 
 /* Contact Icons */
 
