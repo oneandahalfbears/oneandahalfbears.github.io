@@ -90,7 +90,7 @@ a:hover {
 .tm-site-name { font-size: 1.9rem; }
 
 #tm-video-container {
-    height: 660px;
+    height: 570px;
     overflow: hidden;
     background-color: #000000;
     position: relative;
@@ -161,7 +161,7 @@ a:hover {
     flex-direction: column;
     z-index: 999;
 }
-
+ 
 
 .tm-welcome-container-inner { margin-top: 245px; }
 .tm-welcome-text { font-size: 4rem; }
@@ -489,9 +489,14 @@ video::-moz-media-controls-play-button {
   #tm-video-container video {
     pointer-events: none;
   }
-}
-}
 
+  .tm-fixed-header-3 {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
 
 /*About*/
 .tm-about-text-container { max-width: 920px; }
@@ -590,7 +595,8 @@ video::-moz-media-controls-play-button {
    
   }
   .tm-fixed-header-3 {
-    background-size: contain;
+    background-attachment: scroll !important;
+    background-size: cover !important;
     background-repeat: no-repeat;
     background-position: center;
   }
