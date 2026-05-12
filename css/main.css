@@ -90,7 +90,7 @@ a:hover {
 .tm-site-name { font-size: 1.9rem; }
 
 #tm-video-container {
-    height: 570px;
+    height: 660px;
     overflow: hidden;
     background-color: #000000;
     position: relative;
@@ -161,7 +161,7 @@ a:hover {
     flex-direction: column;
     z-index: 999;
 }
- 
+
 
 .tm-welcome-container-inner { margin-top: 245px; }
 .tm-welcome-text { font-size: 4rem; }
