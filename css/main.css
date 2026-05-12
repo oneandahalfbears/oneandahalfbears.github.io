@@ -451,29 +451,16 @@ a:hover {
     background-image: url(../img/video-detail-1.jpg); 
 }
 
-@media (max-width: 991px) {
-    #tm-fixed-header-bg {
-        height: 400px; 
-    }
-    
-    .tm-fixed-header-1 {
-        background-image: url(../img/video-detail-1-small.jpg); 
-            width: 300px;
-        background-size: cover;
-    }
-}
 
 .tm-fixed-header-2 { 
-    background-image: url(../img/Julius.jpg);
+    background-image: url(../img/Julius-2.jpg);
     background-size: cover;
     background-position: center;
-
 }
 
 .tm-fixed-header-3 { 
-    background-image: url(../img/contact-1.jpg);
+    background-image: url(../img/contact-2.jpg);
     background-size: cover;
-    background-position: center;
 }
 
 
