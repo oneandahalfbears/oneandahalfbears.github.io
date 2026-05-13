@@ -303,7 +303,7 @@ a:hover {
     padding-left: 13px;
     padding-right: 13px;
     padding-top: 13px;
-
+    padding-bottom: 13px;
 }
 
 .tm-page-title { 
@@ -713,9 +713,6 @@ video::-moz-media-controls-play-button {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    
-
-
 }
 
 .btt{
@@ -767,4 +764,18 @@ video::-moz-media-controls-play-button {
     color: #ffffff;
        
 }
+
+/* Video Boxes*/
+
+    .tm-video-rounded {
+        border-radius: 30px;
+        overflow: hidden; 
+    }
+
+   
+    .tm-video-card-shadow {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+        transition: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+                    0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
 
